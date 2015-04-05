@@ -19,7 +19,7 @@
 
         public override string ToString()
         {
-            return base.ToString() + string.Format(", Legs: {0}", this.NumberOfLegs);
+            return base.ToString() + string.Format(" Legs: {0}", this.NumberOfLegs);
         }
     }
 }

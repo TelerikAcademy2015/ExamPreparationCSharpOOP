@@ -54,7 +54,7 @@
 
         public override string ToString()
         {
-            return base.ToString() + string.Format(", State: {6}", this.IsConverted ? "Converted" : "Normal");
+            return base.ToString() + string.Format(", State: {0}", this.IsConverted ? "Converted" : "Normal");
         }
     }
 }
