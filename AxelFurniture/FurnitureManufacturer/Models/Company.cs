@@ -45,7 +45,7 @@
         {
             get
             {
-                return this.RegistrationNumber;
+                return this.registrationNumber;
             }
             protected set
             {
